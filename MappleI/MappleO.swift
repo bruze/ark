@@ -14,7 +14,7 @@ struct MappleO: Mappable {
         
     }
     init?(map: Map) {
-        mapping(map: map)
+        //mapping(map: map)
     }
     internal mutating func mapping(map: Map) {
         let dictionary = map.JSON
@@ -22,6 +22,18 @@ struct MappleO: Mappable {
             setValue(label: key, value: dictionary[key])
         }
         setValue(label: "oMap", value: dictionary)
+        //
+        if let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first {
+            let fMan = FileManager.default
+            //let data = NSKeyedArchiver.archivedData(withRootObject: dictionary)
+            //NSKeyedArchiver.archiveRootObject(dictionary, toFile: path + "alan.plist")
+            var data = Data.init()
+            let stringAppend = "class Nueva {"+"\n"
+                + "var \(getValue(label: dictionary.keys.first!)!)"+"\n}"
+            data.append(stringAppend.data(using: String.Encoding.ascii)!)
+            print(fMan.createFile(atPath: path + "alan.swift", contents: data, attributes: nil))
+            let meKnow = true
+        }
     }
     //MARK: Value Trading
     func getValue(label: String) -> Any? {

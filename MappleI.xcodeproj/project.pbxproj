@@ -15,6 +15,7 @@
 		3274E7831EB033AB003633A4 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3274E7821EB033AB003633A4 /* APICall.swift */; };
 		3274E7851EB033B8003633A4 /* MappleO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3274E7841EB033B8003633A4 /* MappleO.swift */; };
 		7C20ECE1413189EA165E3BF0 /* Pods_MappleI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C176E24B0222A61182EB3E9E /* Pods_MappleI.framework */; };
+		9DEC74491EB1167800200280 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC74481EB1167800200280 /* Material.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3274E77B1EB03358003633A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3274E7821EB033AB003633A4 /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
 		3274E7841EB033B8003633A4 /* MappleO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappleO.swift; sourceTree = "<group>"; };
+		9DEC74481EB1167800200280 /* Material.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
 		C176E24B0222A61182EB3E9E /* Pods_MappleI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MappleI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68CF88F51F2078FBFEBD47B /* Pods-MappleI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MappleI.release.xcconfig"; path = "Pods/Target Support Files/Pods-MappleI/Pods-MappleI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				3274E7821EB033AB003633A4 /* APICall.swift */,
+				9DEC74481EB1167800200280 /* Material.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -137,7 +140,7 @@
 				TargetAttributes = {
 					3274E76B1EB03358003633A4 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = UB28NUAJU6;
+						DevelopmentTeam = 27KRJ3F74B;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEC74491EB1167800200280 /* Material.swift in Sources */,
 				3274E7721EB03358003633A4 /* ViewController.swift in Sources */,
 				3274E7701EB03358003633A4 /* AppDelegate.swift in Sources */,
 				3274E7851EB033B8003633A4 /* MappleO.swift in Sources */,
@@ -355,8 +359,9 @@
 			baseConfigurationReference = 1F4ED9E3D3387AD3AA8BC3E5 /* Pods-MappleI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UB28NUAJU6;
+				DEVELOPMENT_TEAM = 27KRJ3F74B;
 				INFOPLIST_FILE = MappleI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = monkeycage.MappleI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,8 +374,9 @@
 			baseConfigurationReference = F68CF88F51F2078FBFEBD47B /* Pods-MappleI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UB28NUAJU6;
+				DEVELOPMENT_TEAM = 27KRJ3F74B;
 				INFOPLIST_FILE = MappleI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = monkeycage.MappleI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -397,6 +403,7 @@
 				3274E7801EB03358003633A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32868E301EB5817200CC1F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32868E2F1EB5817200CC1F63 /* AppDelegate.swift */; };
+		32868E321EB5817200CC1F63 /* BobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32868E311EB5817200CC1F63 /* BobViewController.swift */; };
+		32868E341EB5817200CC1F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32868E331EB5817200CC1F63 /* Assets.xcassets */; };
+		32868E371EB5817200CC1F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32868E351EB5817200CC1F63 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32868E2C1EB5817200CC1F63 /* iMapplerBob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMapplerBob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32868E2F1EB5817200CC1F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32868E311EB5817200CC1F63 /* BobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobViewController.swift; sourceTree = "<group>"; };
+		32868E331EB5817200CC1F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32868E361EB5817200CC1F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32868E381EB5817200CC1F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32868E291EB5817200CC1F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32868E231EB5817200CC1F63 = {
+			isa = PBXGroup;
+			children = (
+				32868E2E1EB5817200CC1F63 /* iMapplerBob */,
+				32868E2D1EB5817200CC1F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32868E2D1EB5817200CC1F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32868E2C1EB5817200CC1F63 /* iMapplerBob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32868E2E1EB5817200CC1F63 /* iMapplerBob */ = {
+			isa = PBXGroup;
+			children = (
+				32868E2F1EB5817200CC1F63 /* AppDelegate.swift */,
+				32868E311EB5817200CC1F63 /* BobViewController.swift */,
+				32868E331EB5817200CC1F63 /* Assets.xcassets */,
+				32868E351EB5817200CC1F63 /* Main.storyboard */,
+				32868E381EB5817200CC1F63 /* Info.plist */,
+			);
+			path = iMapplerBob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32868E2B1EB5817200CC1F63 /* iMapplerBob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32868E3B1EB5817200CC1F63 /* Build configuration list for PBXNativeTarget "iMapplerBob" */;
+			buildPhases = (
+				32868E281EB5817200CC1F63 /* Sources */,
+				32868E291EB5817200CC1F63 /* Frameworks */,
+				32868E2A1EB5817200CC1F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMapplerBob;
+			productName = iMapplerBob;
+			productReference = 32868E2C1EB5817200CC1F63 /* iMapplerBob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32868E241EB5817200CC1F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Bruce;
+				TargetAttributes = {
+					32868E2B1EB5817200CC1F63 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UB28NUAJU6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 32868E271EB5817200CC1F63 /* Build configuration list for PBXProject "iMapplerBob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32868E231EB5817200CC1F63;
+			productRefGroup = 32868E2D1EB5817200CC1F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32868E2B1EB5817200CC1F63 /* iMapplerBob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32868E2A1EB5817200CC1F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32868E341EB5817200CC1F63 /* Assets.xcassets in Resources */,
+				32868E371EB5817200CC1F63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32868E281EB5817200CC1F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32868E321EB5817200CC1F63 /* BobViewController.swift in Sources */,
+				32868E301EB5817200CC1F63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32868E351EB5817200CC1F63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32868E361EB5817200CC1F63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32868E391EB5817200CC1F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32868E3A1EB5817200CC1F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		32868E3C1EB5817200CC1F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UB28NUAJU6;
+				INFOPLIST_FILE = iMapplerBob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monkeycage.iMapplerBob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		32868E3D1EB5817200CC1F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UB28NUAJU6;
+				INFOPLIST_FILE = iMapplerBob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monkeycage.iMapplerBob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32868E271EB5817200CC1F63 /* Build configuration list for PBXProject "iMapplerBob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32868E391EB5817200CC1F63 /* Debug */,
+				32868E3A1EB5817200CC1F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32868E3B1EB5817200CC1F63 /* Build configuration list for PBXNativeTarget "iMapplerBob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32868E3C1EB5817200CC1F63 /* Debug */,
+				32868E3D1EB5817200CC1F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32868E241EB5817200CC1F63 /* Project object */;
+}

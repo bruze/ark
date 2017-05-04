@@ -1,5 +1,5 @@
 //
-//  Material.swift
+//  Material.swift para construir las clases
 //  MappleI
 //
 //  Created by Bruno Garelli on 4/26/17.

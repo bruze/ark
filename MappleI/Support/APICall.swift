@@ -16,7 +16,7 @@ struct APICall {
         /*Alamofire.request("http://localhost:8181/api/v1/highscores").responseArray { (response: DataResponse<[MappleO]>) in
             print(response)
         }*/
-        Alamofire.request("http://localhost:8181/api/v1/highscores").responseArray { (response: DataResponse<[MappleO]>) in
+        Alamofire.request("http://localhost:8181/api/v1/highscores").responseObject { (response: DataResponse<MappleO>) in
             print(response)
             let meKnow = true
         }

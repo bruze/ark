@@ -9,4 +9,5 @@ target 'MappleI' do
   pod 'Alamofire'
   pod 'AlamofireObjectMapper'
   pod 'AssociatedValues'
+  pod 'p2.OAuth2'
 end

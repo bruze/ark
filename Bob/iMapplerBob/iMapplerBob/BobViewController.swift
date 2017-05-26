@@ -23,10 +23,10 @@ class BobViewController: NSViewController {
         
         // Get current directory path
         
-        let path = fileManager.currentDirectoryPath
+        /*let path = fileManager.currentDirectoryPath
         //print(path)
         let task = Process.launchedProcess(launchPath: "/usr/bin/chmod", arguments: ["+x","alan.swift"])
-        task.waitUntilExit()
+        task.waitUntilExit()*/
         
     }
     

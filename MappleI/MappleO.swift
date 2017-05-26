@@ -8,12 +8,15 @@
 import ObjectMapper
 import AssociatedValues
 import Foundation
-struct MappleO: Mappable {
-    private var carrier: NSObject = NSObject.init()
+internal struct MappleO: Mappable {
+    private let carrier: NSObject = NSObject.init()
     init() {
-        
+        DispatchOnce().perform {
+            print("Mappable inited")
+        }
     }
     init?(map: Map) {
+        let meKnow = true
         //mapping(map: map)
     }
     internal mutating func mapping(map: Map) {

@@ -8,13 +8,14 @@
 import Alamofire
 import AlamofireObjectMapper
 //import Foundation
-typealias FetchConfigParams = (baseURL: String, tip: [TipValue], params: [String: AnyObject], method: HTTPMethod)
+typealias FetchConfigParams = (baseURL: String, tip: [TipValue] , params: [ParamValue] , method: HTTPMethod ,
+    headers: [String ])
 internal struct FetchConfig {
     /*VAR
      */
     private var url:    String = ""
     private var tip:    [TipValue] = []
-    private var params: [String: AnyObject] = [:]
+    private var params: [ParamValue] = []
     private var method: HTTPMethod = .get
     /*
      */
@@ -25,7 +26,7 @@ internal struct FetchConfig {
         method = parameters.method
     }
     internal func request() {
-        APICall.sessionManager.request(constructRequestUrl(), method: method, parameters: params, encoding: JSONEncoding.default, headers: [:])
+        APICall.sessionManager.request(constructRequestUrl(), method: method, parameters: constructHeaders(), encoding: JSONEncoding.default, headers: [:])
     }
     private func constructRequestUrl() -> String {
         var result: String = url
@@ -42,6 +43,11 @@ internal struct FetchConfig {
             }
             result += tipAdd
         }
+        return result
+    }
+    private func constructHeaders() -> [String: AnyObject] {
+        var result: [String: AnyObject] = [:]
+        //for singleParma in params
         return result
     }
 }
